@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Cadastro Liga de Futebol </title>
+</head>
+
+<body>
+    <h3> Cadastro da Liga de Futebol </h3>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <br />
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+        <br />
+        <div>
+            <label for="data">Data de nascimento</label>
+            <input type="date" id="data" name="data">
+            <label for="arquivo">Foto</label>
+            <input type="file" id="arquivo" name="arquivo ">
+        </div>
+        <br />
+        <div>
+            <label for="nacionalidade">Time:</label>
+            <select name="nacionalidade" id="nacionalidade">
+                <option value="Nautico" id="nacionalidade">Nautico</option>
+                <option value="Inter" id="nacionalidade">Inter</option>
+                <option value="Gremio" id="nacionalidade">Gremio</option>
+            </select> -
+            Genero:
+            <label for="Famele">F</label>
+            <input type="radio" id="F" name="gender" value="F">
+            <label for="Male">M</label>
+            <input type="radio" id="M" name="gender" value="M">
+        </div>
+        </br>
+        <div>
+            Principais qualidades dos jogadores: 
+            <br/>
+            <label for="interligencia">Inteligencia</label>
+            <input type="checkbox" id="inteligencia" name="inteligencia"> |
+            <label for="habilidade">Habilidade</label>
+            <input type="checkbox" id="habilidade" name="habilidade"> |
+            <label for="chute">Chute</label>
+            <input type="checkbox" id="chute" name="chute"> |
+            <label for="Marcar">Marcar</label>
+            <input type="checkbox" id="Marcar" name="Marcar"> 
+        </div>
+<br/>
+
+<div>
+<textarea name="jogadores" id="jogadores" cols="30" rows="10" placeholder="Fale um pouco mais sobre seus jogadores..."></textarea>
+</div>
+<br/>
+<div>
+   <label for="submit"></label>
+   <input type="submit">
+
+</div>
+    </form>
+</body>
+
+</html>
